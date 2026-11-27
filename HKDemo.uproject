@@ -1,0 +1,30 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "{4B303DEF-4E44-1DE5-A177-09B23BCA8A5A}",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "HKDemo",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "ModelingToolsEditorMode",
+			"Enabled": true,
+			"TargetAllowList": [
+				"Editor"
+			]
+		},
+		{
+			"Name": "PythonScriptPlugin",
+			"Enabled": true
+		},
+		{
+			"Name": "UnrealMcpBridge",
+			"Enabled": true
+		}
+	]
+}

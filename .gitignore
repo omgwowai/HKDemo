@@ -1,0 +1,52 @@
+# Unreal Engine generated / build artifacts
+[Bb]inaries/
+[Bb]uild/
+[Dd]erivedDataCache/
+[Ii]ntermediate/
+[Ss]aved/
+[Pp]latforms/
+Plugins/*/Binaries/
+Plugins/*/Intermediate/
+
+# Visual Studio / Rider / IDE
+.vs/
+.idea/
+*.VC.db
+*.opensdf
+*.opendb
+*.sdf
+*.sln
+*.slnx
+*.suo
+*.user
+*.xcodeproj
+*.xcworkspace
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Python (MCP server tooling, UE editor scripts)
+__pycache__/
+*.pyc
+.venv/
+*.egg-info/
+.pytest_cache/
+
+# UE crash / log / debug symbols
+*.log
+*.pdb
+
+# Claude Code: per-machine settings stay local
+.claude/settings.local.json
+.claude/worktrees/
+
+# Scratch introspection script written by the driving-unreal-via-mcp skill
+/Content/Python/_explore.py
+
+# ---------------------------------------------------------------------------
+# Ultra Dynamic Sky is a paid Fab/Marketplace asset (~619 MB). This repo is
+# public, so the asset is NOT redistributed here. Install it into
+# Content/UltraDynamicSky from your own Fab library after cloning.
+# ---------------------------------------------------------------------------
+/Content/UltraDynamicSky/
